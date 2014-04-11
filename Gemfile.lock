@@ -1,0 +1,35 @@
+PATH
+  remote: ~/code/ios/ProMotion-formotion
+  specs:
+    ProMotion-formotion (0.1.4)
+      ProMotion (>= 1.2.0)
+      formotion (>= 1.7)
+      motion-require (>= 0.2.0)
+
+PATH
+  remote: ~/code/ios/formotion
+  specs:
+    formotion (1.7)
+      bubble-wrap (>= 1.4.0)
+      motion-require (>= 0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ProMotion (1.2.0)
+      methadone (~> 1.3)
+      motion-require (~> 0.2)
+    bubble-wrap (1.5.0)
+    methadone (1.3.2)
+      bundler
+    motion-require (0.2.0)
+    rake (10.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProMotion
+  ProMotion-formotion!
+  formotion!
+  rake
